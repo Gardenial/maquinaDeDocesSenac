@@ -194,8 +194,8 @@ namespace MaquinaDeDoces
         // Método SolicitarProdutos
 
         public Boolean SolicitarProduto(int codigo) 
-        
-        {   if (ModificarCodigo == codigo)
+        {   
+            if (ModificarCodigo == codigo)
             {
                 if (ModificarQuantidade <= 3)
                 {

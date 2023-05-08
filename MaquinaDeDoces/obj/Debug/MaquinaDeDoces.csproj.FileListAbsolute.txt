@@ -1,0 +1,8 @@
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\obj\Debug\MaquinaDeDoces.csproj.AssemblyReference.cache
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\obj\Debug\MaquinaDeDoces.csproj.SuggestedBindingRedirects.cache
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\obj\Debug\MaquinaDeDoces.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\bin\Debug\MaquinaDeDoces.exe.config
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\bin\Debug\MaquinaDeDoces.exe
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\bin\Debug\MaquinaDeDoces.pdb
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\obj\Debug\MaquinaDeDoces.exe
+C:\Users\gustavo.noliveira7\Source\Repos\Gardenial\maquinaDeDocesSenac\MaquinaDeDoces\obj\Debug\MaquinaDeDoces.pdb
