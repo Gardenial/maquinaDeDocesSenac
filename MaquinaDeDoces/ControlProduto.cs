@@ -62,7 +62,7 @@ namespace MaquinaDeDoces
                         Console.Clear(); // Limpa a tela
                         break;
                     case 3:
-                        AtualizarDados();
+                        AtualizarDados(GetProd());
                         Console.Clear(); // Limpa a tela
                         break;
                     case 4:
@@ -141,17 +141,22 @@ namespace MaquinaDeDoces
             Console.WriteLine("Os dados do produto escolhido são: \n\n\n" + prod.ConsultarProduto(codigo));
         }// Fim do método Consultar Dados
 
-       //Atualizar
+        public Produto GetProd()
+        {
+            return prod;
+        }
 
-        public void AtualizarDados()
+        //Atualizar
+
+        public void AtualizarDados(Produto prod)
         {
 
             short campo = 0;
-
+            string novoDado = "";
             do
             {
                 Console.WriteLine("\n\n Informe o código do produto que deseja atualizar: ");
-                int codigo = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Informe o campo que deseja atualizar de acordo com a regra a baixo: \n" +
                     "1. Nome\n " +
                     "2. Descrição\n " +
@@ -160,10 +165,10 @@ namespace MaquinaDeDoces
                     "5. Data de válidade\n " +
                     "6. Situação\n");
 
-                 campo = Convert.ToInt16(Console.ReadLine());
-                
+                campo = Convert.ToInt16(Console.ReadLine());
+
                 //Avisar o usuário
-                if((campo < 1) || (campo > 6))
+                if ((campo < 1) || (campo > 6))
                 {
 
                     Console.WriteLine("Erro, escollha um código entre 1 e 6");
@@ -171,11 +176,10 @@ namespace MaquinaDeDoces
                 }//Fim do If
 
                 Console.WriteLine("Informe o dado que será atualizado: ");
-                string novoDado = Console.ReadLine();
+
 
             } while ((campo < 1) || (campo < 6)); // fim do Repita até
-            //chamar o método de atualizção
-
+            int codigo = Convert.ToInt32(Console.ReadLine());
             prod.AtualizarProduto(codigo, campo, novoDado);
             Console.WriteLine("Atualizado!");
         }//Fim do método Atualizar Dados
